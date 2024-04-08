@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { deleteInvoice } from '@/app/lib/actions';
 
 type Props = {
-  id: string;
+  id?: string;
 };
 
 export function CreateInvoice({ id }: Props) {
